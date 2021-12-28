@@ -1,12 +1,13 @@
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
+import { Switch, Route } from 'react-router-dom';
+import Introduction from './components/intro/Introduction';
 
 function App() {
+
   return (
     <>
-      <Navbar />
-      <Hero />
+      <Introduction />
     </>
 
   );
