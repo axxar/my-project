@@ -15,12 +15,12 @@ const Introduction = () => {
                     </p>
                 </div>
             </div>
-            <div className='flex-1 flex items-center justify-center'>
+            {/* <div className='flex-1 flex items-center justify-center'>
                 <div className='p-12 h-1/2 flex flex-col'>
                     <p className='pt-10'>Image Coming Here Soon</p>
-                    {/* https://www.youtube.com/watch?v=hQjlM-8C4Ps */}
+                    https://www.youtube.com/watch?v=hQjlM-8C4Ps
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
