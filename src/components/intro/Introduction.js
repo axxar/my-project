@@ -8,19 +8,16 @@ const Introduction = () => {
                     <h1 className='text-2xl h-10'>Hello, I'm</h1>
                     <h1 className='text-6xl font-bold pt-2'>Akshar Patel</h1>
                     <p className='pt-10'>
-                        I design and develop services using various technologies.
+                        Software Developer By Profession.
                     </p>
                     <p className='pt-3'>
-                        I am also a photographer by passion.
+                        Photographer By Passion.
+                    </p>
+                    <p className='pt-3'>
+                        Gamer By Night.
                     </p>
                 </div>
             </div>
-            {/* <div className='flex-1 flex items-center justify-center'>
-                <div className='p-12 h-1/2 flex flex-col'>
-                    <p className='pt-10'>Image Coming Here Soon</p>
-                    https://www.youtube.com/watch?v=hQjlM-8C4Ps
-                </div>
-            </div> */}
         </div>
     )
 }
