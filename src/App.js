@@ -1,19 +1,21 @@
 import React from 'react';
 import './App.css';
-import Introduction from './components/intro/Introduction';
-import LandingImage from './components/images/LandingImage.jpg'
+import Introduction from './components/Introduction';
+import About from './components/About';
+import Navbar from './components/Navbar';
+import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
 
 function App() {
 
   return (
-    <div className='h-screen text-white' style={{
-      backgroundSize: "cover",
-      backgroundAttachment: "fixed",
-      backgroundImage: `url(${LandingImage})`,
-    }}>
-      <Introduction />
-    </div>
-
+    <>
+      <Navbar>
+        <Routes>
+          <Route exact path="/" element={<Introduction />} />
+          <Route exact path="/about" element={<About />} />
+        </Routes>
+      </Navbar>
+    </>
   );
 }
 
