@@ -1,13 +1,8 @@
 import React from 'react'
-import LandingImage from '../images/LandingImage.jpg'
 
 const Introduction = () => {
     return (
-        <div className='flex h-screen text-white bg-black' style={{
-            backgroundSize: "cover",
-            backgroundAttachment: "fixed",
-            backgroundImage: `url(${LandingImage})`,
-          }}>
+        <div className='flex h-screen'>
             <div className='md:flex'>
                 <div class="md:shrink-0">
                     <div className="flex h-4/6 ml-10 mt-10">
@@ -20,13 +15,8 @@ const Introduction = () => {
                         </div>
                     </div>
                 </div>
-                <div className="flex h-4/6 ml-10 ">
-                    
-                </div>
             </div>
-            
         </div>
-        
     )
 }
 
