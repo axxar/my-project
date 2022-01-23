@@ -57,9 +57,7 @@ const Navbar = ({children}) => {
           </div>
         </div>
       </nav>
-      <div className="container flex flex-wrap justify-between items-center mx-auto text-white">
-        {children}
-      </div>
+      {children}
     </>
   );
 };
