@@ -69,7 +69,7 @@ const Contact = () => {
                 </div>
               </div>
               <div data-netlify-recaptcha="true"></div>
-              <div className="pr-3 md:flex mt-2">
+              {/* <div className="pr-3 md:flex mt-2">
                 <div className="md:w-6/12 mx-auto px-3">
                   <input
                     type="submit"
@@ -77,7 +77,8 @@ const Contact = () => {
                     value="Send"
                   />
                 </div>
-              </div>
+              </div> */}
+              <p><small className="text-gray-400">Work in progress. Be back soon!</small></p>
             </form>
           </div>
           <div class="hidden w-full md:block md:w-auto md:px-12">
