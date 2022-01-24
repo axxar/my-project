@@ -75,7 +75,7 @@ const Contact = () => {
             </form>
           </div>
           <div class="hidden w-full md:block md:w-auto md:px-12">
-            <img src={Connect} className="ml-auto pt-7 sm:p-0" alt="Connect Image"></img>
+            <img src={Connect} className="ml-auto pt-7 sm:p-0" alt="Connect logo"></img>
           </div>
         </div>
       </div>

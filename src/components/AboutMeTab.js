@@ -17,7 +17,7 @@ export default function Example() {
       },
       {
         id: 2,
-        title: '\"Tech guy\"',
+        title: 'Tech guy',
         content: 'Expected to have answers for every tech problems in life  but mostly it is plug-out and plug-in.',
         date: 'Everyday',
         comment: 'Reboot',
