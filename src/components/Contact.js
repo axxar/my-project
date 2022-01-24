@@ -66,7 +66,7 @@ const Contact = () => {
                 </div>
               </div>
               <div className="pr-3 md:flex mt-2">
-                <div className="md:w-full px-3">
+                <div className="md:w-6/12 mx-auto px-3">
                   <button type="submit" className="md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full">
                     Send
                   </button>
