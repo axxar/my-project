@@ -8,7 +8,7 @@ const Contact = () => {
         <div class="md:flex">
           <div class="md:shrink-0 sm:p-0 pl-4 md:w-6/12">
             <h1 className="text-4xl leading-normal">Let's connect</h1>
-            <div className="pt-6 pb-8 mb-4 flex flex-col">
+            <form className="pt-6 pb-8 mb-4 flex flex-col" method="POST" data-netlify="true" >
               <div className="w-full pr-3">
                 <div className="md:mb-0">
                   <label
@@ -67,12 +67,12 @@ const Contact = () => {
               </div>
               <div className="pr-3 md:flex mt-2">
                 <div className="md:w-full px-3">
-                  <button className="md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full">
+                  <button type="submit" className="md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full">
                     Send
                   </button>
                 </div>
               </div>
-            </div>
+            </form>
           </div>
           <div class="hidden w-full md:block md:w-auto md:px-12">
             <img src={Connect} className="ml-auto pt-7 sm:p-0"></img>
