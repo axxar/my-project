@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Switch, Route, Routes } from "react-router-dom";
+import Footer from './components/Footer';
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
           <Route exact path="/contact" element={<Contact />} />
         </Routes>
       </Navbar>
+      <Footer />
     </>
   );
 }
