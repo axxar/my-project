@@ -1,5 +1,4 @@
 import React from "react";
-import Moments from "./images/moments.svg";
 import Example from "./AboutMeTab";
 
 const About = () => {

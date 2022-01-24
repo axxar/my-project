@@ -16,7 +16,7 @@ const Hero = () => {
               <p className="pt-3">Gamer By Night.</p>
             </div>
             <div class="ml-auto">
-              <img src={ProgrammingLogo} className="sm:w-9/12 ml-auto"></img>
+              <img src={ProgrammingLogo} className="sm:w-9/12 ml-auto" alt="Programming Logo"></img>
             </div>
           </div>
         </div>
