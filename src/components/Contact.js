@@ -11,7 +11,7 @@ const Contact = () => {
             <form
               className="pt-6 pb-8 mb-4 flex flex-col"
               data-netlify="true"
-              name="cotactMe"
+              name="cotact"
               method="post"
               data-netlify-recaptcha="true"
               netlify-honeypot="hpfield"
@@ -55,30 +55,30 @@ const Contact = () => {
                 <div className="mb-6 md:mb-0">
                   <label
                     className="uppercase tracking-wider text-white text-xs font-bold mb-2"
-                    for="comments"
+                    for="message"
                   >
-                    Comments
+                    Message
                   </label>
                   <div>
                     <textarea
                       className="w-full bg-gray-200 border border-gray-200 text-black text-sm py-3 px-4 pr-8 mb-3 rounded"
                       rows={4}
-                      id="comments"
+                      id="message"
                     ></textarea>
                   </div>
                 </div>
               </div>
               <div data-netlify-recaptcha="true"></div>
-              {/* <div className="pr-3 md:flex mt-2">
+              <div className="pr-3 md:flex mt-2">
                 <div className="md:w-6/12 mx-auto px-3">
-                  <input
+                  <button
                     type="submit"
-                    className="md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full"
-                    value="Send"
-                  />
+                    className="md:w-full bg-gray-900 text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-500 hover:border-gray-100 rounded-full">
+                      Send
+                    </button>
                 </div>
-              </div> */}
-              <p><small className="text-gray-400">Work in progress. Be back soon!</small></p>
+              </div>
+              {/* <p><small className="text-gray-400">Work in progress. Be back soon!</small></p> */}
             </form>
           </div>
           <div class="hidden w-full md:block md:w-auto md:px-12">
