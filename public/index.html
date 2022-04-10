@@ -15,9 +15,13 @@
 </head>
 
 <body class="backgroundImage text-white">
+  <form name="contact" netlify netlify-honeypot="bot-field" action="/" hidden>
+  <input type="text" name="name" />
+  <input type="email" name="email" />
+  <textarea name="message"></textarea>
+</form>
   <noscript>You need to enable JavaScript to view this website</noscript>
   <div id="root"></div>
-  <input type="hidden" name="contact" value="contact">
   <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
 </body>
 
