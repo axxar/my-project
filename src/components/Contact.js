@@ -4,8 +4,8 @@ import ReCAPTCHA from "react-google-recaptcha";
 
 const Contact = () => {
   return (
-    <div className="h-screen flex ">
-      <div className="container m-auto">
+    <div className="flex mx-auto">
+      <div className="container">
         <div class="md:flex">
           <div class="md:shrink-0 sm:p-0 pl-4 md:w-6/12">
             <h1 className="text-4xl leading-normal">Let's connect</h1>

@@ -5,7 +5,7 @@ import About from "./About";
 const Hero = () => {
   return (
     <>
-      <div className="h-screen flex ">
+      <div className="container flex my-40">
         <div className="container m-auto">
           <div class="md:flex">
             <div class="md:shrink-0 pl-4">
