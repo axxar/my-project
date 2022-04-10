@@ -9,7 +9,6 @@ import Portfolio from './components/Portfolio';
 import Hobbies from './components/Hobbies';
 
 function App() {
-
   return (
     <>
       <Navbar>
