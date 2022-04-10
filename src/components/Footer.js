@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center">
             <small className="align-middle text-xs py-1">
-              &copy; Copyright 2022{" "}
+              &copy; 2022{" "}
               <span>
                 <img
                   src={AtLogo}
