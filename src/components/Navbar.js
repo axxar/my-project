@@ -9,34 +9,34 @@ function Navbar({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="backdrop-blur-sm sticky top-0 z-10">
+      <nav className="bg-gray-100 dark:bg-gray-800 sticky top-0 z-10 border-b-2 border-gray-300 dark:border-gray-700">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16">
-            <div className="flex">
+            <div className="flex items-center">
               <div className="flex-shrink-0">
                 <NavLink to="/">
                   <img className="h-12 w-12" src={APLogo} alt="Workflow" />
                 </NavLink>
               </div>
               <div className="hidden md:block">
-                <div className="ml-10 flex space-x-4">
+                <div className="ml-10 flex space-x-4 font-semibold">
                   <NavLink
                     to="/"
-                    className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md font-medium"
+                    className="text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white px-3 py-2"
                   >
                     Home
                   </NavLink>
 
                   <NavLink
                     to="/contact"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                    className="text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white px-3 py-2"
                   >
                     Contact
                   </NavLink>
 
                   <NavLink
                     to="/sideline"
-                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md font-medium"
+                    className="text-gray-700 hover:text-black dark:text-gray-300 dark:hover:text-white px-3 py-2"
                   >
                     Hobbies
                   </NavLink>
@@ -48,7 +48,7 @@ function Navbar({ children }) {
               <button
                 id="theme-toggle"
                 type="button"
-                class="text-white dark:text-black hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5"
+                class="text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-800  rounded-lg text-sm p-2.5"
               >
                 <svg
                   id="theme-toggle-dark-icon"

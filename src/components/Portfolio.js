@@ -9,7 +9,7 @@ const Portfolio = () => {
             <time className="mb-7 text-sm font-normal leading-none text-gray-400">
               February 2022
             </time>
-            <h3 className="text-lg font-semibold text-gray-900">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-200">
               Application UI code in Tailwind CSS
             </h3>
             <p className="mb-4 text-base font-normal text-gray-500">
@@ -41,7 +41,7 @@ const Portfolio = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">
               March 2022
             </time>
-            <h3 className="text-lg font-semibold text-gray-900">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-200">
               Marketing UI design in Figma
             </h3>
             <p className="text-base font-normal text-gray-500">
@@ -55,7 +55,7 @@ const Portfolio = () => {
             <time className="mb-1 text-sm font-normal leading-none text-gray-400">
               April 2022
             </time>
-            <h3 className="text-lg font-semibold text-gray-900">
+            <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-200">
               E-Commerce UI code in Tailwind CSS
             </h3>
             <p className="text-base font-normal text-gray-500">

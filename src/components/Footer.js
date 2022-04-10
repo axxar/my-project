@@ -3,7 +3,7 @@ import AtLogo from "./images/at-handcraft.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-8 inset-x-0 backdrop-blur-sm bottom-0 items-center fixed">
+    <footer className="w-full h-8 items-center">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between">
           <div className="flex items-center">

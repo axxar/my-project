@@ -15,19 +15,19 @@
   <script>
     // On page load or when changing themes, best to add inline in `head` to avoid FOUC
     if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-        document.documentElement.classList.add('dark');
+      document.documentElement.classList.add('dark');
     } else {
-        document.documentElement.classList.remove('dark')
+      document.documentElement.classList.remove('dark')
     }
-</script>
+  </script>
 </head>
 
-<body class="backgroundImage text-white">
+<body class="bg-white text-black dark:text-white dark:bg-gray-900">
   <form name="contact" netlify netlify-honeypot="bot-field" action="/" hidden>
-  <input type="text" name="name" />
-  <input type="email" name="email" />
-  <textarea name="message"></textarea>
-</form>
+    <input type="text" name="name" />
+    <input type="email" name="email" />
+    <textarea name="message"></textarea>
+  </form>
   <noscript>You need to enable JavaScript to view this website</noscript>
   <div id="root"></div>
   <script src="https://unpkg.com/@themesberg/flowbite@1.1.1/dist/flowbite.bundle.js"></script>
