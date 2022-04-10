@@ -60,7 +60,7 @@ export default function AboutMeTab() {
   return (
     <div className="md:w-9/12 lg:w-6/12 pr-4 py-6">
       <Tab.Group vertical>
-        <Tab.List className="flex p-1  bg-blue-900/20 rounded-xl">
+        <Tab.List className="flex p-1 bg-gray-900/50 dark:bg-blue-900/20 rounded-xl">
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
@@ -69,8 +69,8 @@ export default function AboutMeTab() {
                   'w-full py-2.5 text-base leading-5 text-blue-700 rounded-lg tracking-widest font-semibold',
                   'focus:outline-none focus:ring-2 ring-offset-2',
                   selected
-                    ? 'bg-white shadow text-blue-800' 
-                    : 'text-blue-100 hover:bg-white/[0.12] hover:text-white'
+                    ? 'bg-zinc-200 dark:bg-white shadow text-dark text-blue-800 dark:text-blue-800' 
+                    : 'text-blue-100 hover:bg-white/40 hover:text-dark dark:hover:text-white'
                 )
               }
             >
@@ -83,7 +83,7 @@ export default function AboutMeTab() {
             <Tab.Panel
               key={idx}
               className={classNames(
-                'bg-gray-500 rounded-xl p-3 bg-opacity-10'
+                'bg-gray-500 dark:bg-gray-800 rounded-xl p-3 bg-opacity-10'
               )}
             >
               <ul>
@@ -96,7 +96,7 @@ export default function AboutMeTab() {
                       {post.title}
                     </h3>
 
-                    <p className='text-sm text-gray-400'>
+                    <p className='text-sm text-gray-500 dark:text-gray-400'>
                       {post.content}
                     </p>
 

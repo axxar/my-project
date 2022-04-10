@@ -25,7 +25,7 @@ const Contact = () => {
                   <label className="uppercase tracking-wider text-xs font-bold mb-2">
                     Name*
                     <input
-                      className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3"
+                      className="w-full bg-gray-200 dark:bg-gray-300 text-black border border-gray-200 rounded py-3 px-4 mb-3"
                       name="name"
                       type="text"
                       placeholder="Akshar P."
@@ -39,7 +39,7 @@ const Contact = () => {
                   <label className="uppercase tracking-wider text-xs font-bold mb-2">
                     Email*
                     <input
-                    className="w-full bg-gray-200 text-black border border-gray-200 rounded py-3 px-4 mb-3"
+                    className="w-full bg-gray-200 dark:bg-gray-300 text-black border border-gray-200 rounded py-3 px-4 mb-3"
                     id="email"
                     name="email"
                     type="email"
@@ -54,7 +54,7 @@ const Contact = () => {
                   <label className="uppercase tracking-wider text-xs font-bold mb-2">
                     Message
                     <textarea
-                      className="w-full bg-gray-200 border border-gray-200 text-black text-sm py-3 px-4 pr-8 mb-3 rounded"
+                      className="w-full bg-gray-200 dark:bg-gray-300 border border-gray-200 text-black text-sm py-3 px-4 pr-8 mb-3 rounded"
                       rows={4}
                       id="message"
                       name="message"
@@ -67,7 +67,7 @@ const Contact = () => {
                 <div className="md:w-6/12 mx-auto px-3">
                   <button
                     type="submit"
-                    className="md:w-full bg-gray-900 dark:bg-gray-400 dark:text-black text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-300 hover:border-gray-100 rounded-full"
+                    className="md:w-full bg-gray-500 dark:bg-gray-400 dark:text-black text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-600 hover:border-gray-500 dark:border-gray-300 dark:hover:border-gray-400 rounded-full"
                   >
                     Send
                   </button>

@@ -1,9 +1,10 @@
 import React from "react";
+import UnderConstructionLogo from './images/under_construction.svg'
 
 const Hobbies = () => {
   return (
-      <div className="container mt-24">
-        <p>Welcome</p>
+      <div className="container">
+        <img src={UnderConstructionLogo} className="sm:w-3/6 w-full m-auto" alt="Under Construction Logo"></img>
       </div>
   );
 };

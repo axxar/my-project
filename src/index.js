@@ -22,11 +22,18 @@ reportWebVitals();
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
 var themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
 
+var themeToggleLightImg = document.getElementById('light-img');
+var themeToggleDarkImg = document.getElementById('dark-img');
+
 // Change the icons inside the button based on previous settings
 if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     themeToggleLightIcon.classList.remove('hidden');
+    themeToggleDarkImg.classList.remove('hidden');
+    themeToggleLightImg.classList.add('hidden');
 } else {
     themeToggleDarkIcon.classList.remove('hidden');
+    themeToggleLightImg.classList.remove('hidden');
+    themeToggleDarkImg.classList.add('hidden');
 }
 
 var themeToggleBtn = document.getElementById('theme-toggle');
@@ -42,9 +49,13 @@ themeToggleBtn.addEventListener('click', function() {
         if (localStorage.getItem('color-theme') === 'light') {
             document.documentElement.classList.add('dark');
             localStorage.setItem('color-theme', 'dark');
+            themeToggleLightImg.classList.remove('hidden');
+            themeToggleDarkImg.classList.add('hidden');
         } else {
             document.documentElement.classList.remove('dark');
             localStorage.setItem('color-theme', 'light');
+            themeToggleDarkImg.classList.remove('hidden');
+            themeToggleLightImg.classList.add('hidden');
         }
 
     // if NOT set via local storage previously
@@ -52,9 +63,14 @@ themeToggleBtn.addEventListener('click', function() {
         if (document.documentElement.classList.contains('dark')) {
             document.documentElement.classList.remove('dark');
             localStorage.setItem('color-theme', 'light');
+            themeToggleDarkImg.classList.remove('hidden');
+            themeToggleLightImg.classList.add('hidden');
+
         } else {
             document.documentElement.classList.add('dark');
             localStorage.setItem('color-theme', 'dark');
+            themeToggleLightImg.classList.remove('hidden');
+            themeToggleDarkImg.classList.add('hidden');
         }
     }
     
