@@ -1,5 +1,4 @@
 import React from "react";
-import ProgrammingLogo from "./images/programming.svg";
 import About from "./About";
 import Coding from "./images/coding.svg";
 
@@ -17,7 +16,7 @@ const Hero = () => {
               <p className="pt-3">Gamer By Night.</p>
             </div>
             <div class="ml-auto">
-              <img src={Coding} className="sm:w-9/12 ml-auto" alt="Programming Logo"></img>
+              <img src={Coding} className="sm:w-9/12 ml-auto" alt="Coding Logo"></img>
             </div>
           </div>
         </div>

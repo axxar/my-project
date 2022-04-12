@@ -1,5 +1,5 @@
 import { Menu, Transition } from '@headlessui/react';
-import { Fragment, useEffect, useRef, useState } from 'react';
+import { Fragment } from 'react';
 import { LinkIcon } from '@heroicons/react/solid';
 import InstaLogo from './images/instagram.svg';
 
@@ -28,7 +28,7 @@ export default function Socials() {
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
-                  <a href='https://www.linkedin.com/in/akshar-ap/' target={'_blank'}
+                  <a href='https://www.linkedin.com/in/akshar-ap/' target='_blank'
                     className={`${
                       active ? "bg-gray-400 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
@@ -46,7 +46,7 @@ export default function Socials() {
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <a href='https://www.instagram.com/akshar_ap/' target={'_blank'}
+                  <a href='https://www.instagram.com/akshar_ap/' target='_blank'
                     className={`${
                       active ? "bg-gray-400 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}

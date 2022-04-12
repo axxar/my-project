@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div className="flex">
             <small>Made with coffee and </small>
-            <img src={ReactLogo} className="w-4 h-4 pt-1 mx-1"></img>
+            <img src={ReactLogo} className="w-4 h-4 pt-1 mx-1" alt="React sign logo"></img>
           <svg
             class="w-4 h-4 pt-1 mx-1"
             xmlns="http://www.w3.org/2000/svg"
