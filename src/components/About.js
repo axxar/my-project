@@ -13,12 +13,12 @@ const About = () => {
             <div className="hidden w-full flex-1 lg:block md:w-auto md:pr-4 md:pt-4">
               <div class="grid grid-rows-2 grid-flow-col gap-4">
                 <div>
-                  <img src={Photo} className=""></img>
+                  <img src={Photo} alt="Photographer taking a click"></img>
                 </div>
                 <div></div>
                 <div></div>
                 <div>
-                  <img src={HackerMind} className=""></img>
+                  <img src={HackerMind} alt="Man in front of scren"></img>
                 </div>
               </div>
             </div>
