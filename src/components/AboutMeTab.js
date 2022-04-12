@@ -33,9 +33,9 @@ export default function AboutMeTab() {
       {
         id: 4,
         title: 'Astrophile',
-        content: 'Yes, I have a thing for space. Especially mars.',
+        content: 'Yes, I have a thing or two for space.',
         date: 'SPACEX',
-        comment: 'Wen Orbit',
+        comment: 'AXIOM',
         shareCount: 12,
       },
     ],
@@ -58,9 +58,9 @@ export default function AboutMeTab() {
   })
 
   return (
-    <div className="md:w-9/12 lg:w-6/12 pr-4 py-6">
+    <div className="pr-4">
       <Tab.Group vertical>
-        <Tab.List className="flex p-1 bg-gray-900/50 dark:bg-blue-900/20 rounded-xl">
+        <Tab.List className="flex p-1 bg-gray-900/50 dark:bg-blue-900/60 rounded-xl">
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
@@ -83,7 +83,7 @@ export default function AboutMeTab() {
             <Tab.Panel
               key={idx}
               className={classNames(
-                'bg-gray-500 dark:bg-gray-800 rounded-xl p-3 bg-opacity-10'
+                'bg-gray-500 dark:bg-gray-700 rounded-xl p-3 bg-opacity-10'
               )}
             >
               <ul>

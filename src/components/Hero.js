@@ -1,11 +1,12 @@
 import React from "react";
 import ProgrammingLogo from "./images/programming.svg";
 import About from "./About";
+import Coding from "./images/coding.svg";
 
 const Hero = () => {
   return (
     <>
-      <div className="container flex my-36">
+      <div className="container flex sm:my-44 mb-24 mt-16">
         <div className="container m-auto">
           <div class="md:flex">
             <div class="md:shrink-0 pl-4">
@@ -16,7 +17,7 @@ const Hero = () => {
               <p className="pt-3">Gamer By Night.</p>
             </div>
             <div class="ml-auto">
-              <img src={ProgrammingLogo} className="sm:w-9/12 ml-auto" alt="Programming Logo"></img>
+              <img src={Coding} className="sm:w-9/12 ml-auto" alt="Programming Logo"></img>
             </div>
           </div>
         </div>

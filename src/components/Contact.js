@@ -67,7 +67,7 @@ const Contact = () => {
                 <div className="md:w-6/12 mx-auto px-3">
                   <button
                     type="submit"
-                    className="md:w-full bg-gray-500 dark:bg-gray-400 dark:text-black text-white font-bold py-2 px-4 border-b-4 hover:border-b-2 border-gray-600 hover:border-gray-500 dark:border-gray-300 dark:hover:border-gray-400 rounded-full"
+                    className="md:w-full bg-gray-800 dark:bg-blue-700 dark:text-black text-white font-bold py-2 px-10 border-b-4 hover:border-b-2 border-gray-600 hover:border-gray-600 dark:border-blue-900 dark:hover:border-blue-900 rounded-full"
                   >
                     Send
                   </button>

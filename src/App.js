@@ -6,7 +6,7 @@ import Contact from './components/Contact';
 import { Route, Routes } from "react-router-dom";
 import Footer from './components/Footer';
 import Portfolio from './components/Portfolio';
-import Hobbies from './components/Hobbies';
+import Photography from './components/Photography';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Hero />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/sideline" element={<Hobbies />} />
+          <Route exact path="/photography" element={<Photography />} />
           <Route exact path="/portfolio" element={<Portfolio />} />
         </Routes>
       </Navbar>

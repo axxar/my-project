@@ -13,10 +13,6 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
 
 var themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
@@ -28,12 +24,12 @@ var themeToggleDarkImg = document.getElementById('dark-img');
 // Change the icons inside the button based on previous settings
 if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     themeToggleLightIcon.classList.remove('hidden');
-    themeToggleDarkImg.classList.remove('hidden');
-    themeToggleLightImg.classList.add('hidden');
-} else {
-    themeToggleDarkIcon.classList.remove('hidden');
     themeToggleLightImg.classList.remove('hidden');
     themeToggleDarkImg.classList.add('hidden');
+} else {
+    themeToggleDarkIcon.classList.remove('hidden');
+    themeToggleDarkImg.classList.remove('hidden');
+    themeToggleLightImg.classList.add('hidden');
 }
 
 var themeToggleBtn = document.getElementById('theme-toggle');
