@@ -28,7 +28,10 @@ export default function Socials() {
             <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
-                  <a href='https://www.linkedin.com/in/akshar-ap/' rel="noreferrer"  target='_blank'
+                  <a
+                    href="https://www.linkedin.com/in/akshar-ap/"
+                    rel="noreferrer"
+                    target="_blank"
                     className={`${
                       active ? "bg-gray-400/80 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
@@ -46,13 +49,41 @@ export default function Socials() {
               </Menu.Item>
               <Menu.Item>
                 {({ active }) => (
-                  <a href='https://www.instagram.com/akshar_ap/' rel="noreferrer" target='_blank'
+                  <a
+                    href="https://www.instagram.com/akshar_ap/"
+                    rel="noreferrer"
+                    target="_blank"
                     className={`${
                       active ? "bg-gray-400/80 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                   >
-                    <img src={InstaLogo} className="w-5 h-5 pt-0.5 mr-2" alt="Instagram logo"></img>
+                    <img
+                      src={InstaLogo}
+                      className="w-5 h-5 pt-0.5 mr-2"
+                      alt="Instagram logo"
+                    ></img>
                     @akshar_ap
+                  </a>
+                )}
+              </Menu.Item>
+            </div>
+            <div className="px-1 py-1 ">
+              <Menu.Item>
+                {({ active }) => (
+                  <a
+                    href="https://www.instagram.com/aksharshoots/"
+                    rel="noreferrer"
+                    target="_blank"
+                    className={`${
+                      active ? "bg-gray-400/80 text-white" : "text-gray-900"
+                    } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
+                  >
+                    <img
+                      src={InstaLogo}
+                      className="w-5 h-5 pt-0.5 mr-2"
+                      alt="Instagram logo"
+                    ></img>
+                    @aksharshoots
                   </a>
                 )}
               </Menu.Item>

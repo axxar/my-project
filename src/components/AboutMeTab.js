@@ -66,7 +66,7 @@ export default function AboutMeTab() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full py-2.5 text-base leading-5 rounded-lg tracking-widest font-semibold',
+                  'w-full py-2.5 leading-5 rounded-lg tracking-widest text-lg font-semibold',
                   'focus:outline-none focus:ring-2 ring-offset-2',
                   selected
                     ? 'bg-zinc-200 dark:bg-white shadow text-dark text-blue-800 dark:text-blue-800' 
