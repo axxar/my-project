@@ -10,7 +10,7 @@ export default function Socials() {
         <div>
           <Menu.Button className="inline-flex justify-center w-full pt-2.5 text-sm font-medium text-white bg-black bg-transparent">
             <LinkIcon
-              className="w-5 h-5 text-violet-600 hover:text-violet-900 dark:text-violet-400 dark:hover:text-violet-200"
+              className="w-5 h-5 text-violet-400 hover:text-violet-900 dark:text-violet-600 dark:hover:text-violet-200"
               aria-hidden="true"
             />
           </Menu.Button>
@@ -30,7 +30,7 @@ export default function Socials() {
                 {({ active }) => (
                   <a href='https://www.linkedin.com/in/akshar-ap/' rel="noreferrer"  target='_blank'
                     className={`${
-                      active ? "bg-gray-400 text-white" : "text-gray-900"
+                      active ? "bg-gray-400/80 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                   >
                     <svg
@@ -48,7 +48,7 @@ export default function Socials() {
                 {({ active }) => (
                   <a href='https://www.instagram.com/akshar_ap/' rel="noreferrer" target='_blank'
                     className={`${
-                      active ? "bg-gray-400 text-white" : "text-gray-900"
+                      active ? "bg-gray-400/80 text-white" : "text-gray-900"
                     } group flex rounded-md items-center w-full px-2 py-2 text-sm`}
                   >
                     <img src={InstaLogo} className="w-5 h-5 pt-0.5 mr-2" alt="Instagram logo"></img>

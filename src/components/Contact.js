@@ -25,10 +25,9 @@ const Contact = () => {
                   <label className="uppercase tracking-wider text-xs font-bold mb-2">
                     Name*
                     <input
-                      className="w-full bg-gray-200 dark:bg-gray-300 text-black border border-gray-200 rounded py-3 px-4 mb-3"
+                      className="w-full bg-gray-100 dark:bg-gray-100/50 border border-gray-300 rounded py-3 px-4 mb-3"
                       name="name"
                       type="text"
-                      placeholder="Akshar P."
                       required
                     />
                   </label>
@@ -39,11 +38,10 @@ const Contact = () => {
                   <label className="uppercase tracking-wider text-xs font-bold mb-2">
                     Email*
                     <input
-                    className="w-full bg-gray-200 dark:bg-gray-300 text-black border border-gray-200 rounded py-3 px-4 mb-3"
+                    className="w-full bg-gray-100 dark:bg-gray-100/50 border border-gray-300 rounded py-3 px-4 mb-3"
                     id="email"
                     name="email"
                     type="email"
-                    placeholder="akshar@aksharap.com"
                     required
                   />
                   </label>
@@ -54,7 +52,7 @@ const Contact = () => {
                   <label className="uppercase tracking-wider text-xs font-bold mb-2">
                     Message
                     <textarea
-                      className="w-full bg-gray-200 dark:bg-gray-300 border border-gray-200 text-black text-sm py-3 px-4 pr-8 mb-3 rounded"
+                      className="w-full bg-gray-100 dark:bg-gray-100/50 border border-gray-300 text-black text-sm py-3 px-4 pr-8 mb-3 rounded"
                       rows={4}
                       id="message"
                       name="message"

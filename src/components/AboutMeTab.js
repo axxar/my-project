@@ -66,11 +66,11 @@ export default function AboutMeTab() {
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full py-2.5 text-base leading-5 text-blue-700 rounded-lg tracking-widest font-semibold',
+                  'w-full py-2.5 text-base leading-5 rounded-lg tracking-widest font-semibold',
                   'focus:outline-none focus:ring-2 ring-offset-2',
                   selected
                     ? 'bg-zinc-200 dark:bg-white shadow text-dark text-blue-800 dark:text-blue-800' 
-                    : 'text-blue-100 hover:bg-white/40 hover:text-dark dark:hover:text-white'
+                    : 'hover:bg-white/40 hover:text-dark dark:hover:text-white'
                 )
               }
             >
@@ -83,7 +83,7 @@ export default function AboutMeTab() {
             <Tab.Panel
               key={idx}
               className={classNames(
-                'bg-gray-500 dark:bg-gray-700 rounded-xl p-3 bg-opacity-10'
+                'bg-gray-300 dark:bg-gray-700 rounded-xl p-3'
               )}
             >
               <ul>
@@ -96,7 +96,7 @@ export default function AboutMeTab() {
                       {post.title}
                     </h3>
 
-                    <p className='text-sm text-gray-500 dark:text-gray-400'>
+                    <p className='text-sm text-gray-600 dark:text-gray-400'>
                       {post.content}
                     </p>
 

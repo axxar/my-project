@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "@themesberg/flowbite";
 import { Transition } from "@headlessui/react";
 import APLogo from "./images/APLogo.png";
 import APLogoW from "./images/APLogo-white.png";
@@ -10,7 +9,7 @@ function Navbar({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-      <nav className="bg-gray-400 dark:bg-gray-800 sticky top-0 z-10  border-b border-gray-500 dark:border-gray-600">
+      <nav className="bg-white dark:bg-gray-800 sticky top-0 z-10  border-b border-gray-200 dark:border-gray-600">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center">
@@ -49,7 +48,7 @@ function Navbar({ children }) {
               <button
                 id="theme-toggle"
                 type="button"
-                class="text-black dark:text-white hover:bg-gray-500 dark:hover:bg-gray-700 ml-3 rounded-lg text-sm p-2.5"
+                class="text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700 ml-3 rounded-lg text-sm p-2.5"
               >
                 <svg
                   id="theme-toggle-dark-icon"

@@ -4,11 +4,11 @@ import ReactLogo from "./images/React-icon.svg";
 
 const Footer = () => {
   return (
-    <footer className="w-full h-6 items-center bottom-0 fixed bg-gray-400 dark:bg-gray-800 border-t border-gray-500 dark:border-gray-600">
+    <footer className="w-full h-7 items-center bottom-0 fixed bg-white dark:bg-gray-800 border-t border-gray-300 dark:border-gray-600">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between py-1">
           <div className="flex items-center">
-            <small className="align-middle text-xs py-1">
+            <small className="align-middle text-sm">
               &copy; 2022{" "}
               <span>
                 <img
@@ -21,7 +21,7 @@ const Footer = () => {
             </small>
           </div>
           <div className="flex">
-            <small>Made with coffee and </small>
+            <small className="text-sm">Made with coffee and </small>
             <img src={ReactLogo} className="w-4 h-4 pt-1 mx-1" alt="React sign logo"></img>
           <svg
             class="w-4 h-4 pt-1 mx-1"
