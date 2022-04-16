@@ -67,7 +67,7 @@ export default function Socials() {
                 )}
               </Menu.Item>
             </div>
-            <div className="px-1 py-1 ">
+            {/* <div className="px-1 py-1 ">
               <Menu.Item>
                 {({ active }) => (
                   <a
@@ -87,7 +87,7 @@ export default function Socials() {
                   </a>
                 )}
               </Menu.Item>
-            </div>
+            </div> */}
           </Menu.Items>
         </Transition>
       </Menu>
